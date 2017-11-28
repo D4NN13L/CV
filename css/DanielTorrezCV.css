@@ -1,0 +1,47 @@
+body{
+	background-color: #b2ffff;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+.subtitulo{
+	text-transform: uppercase;
+	border-bottom: solid black;
+}
+#izquierda{
+	width: 29%;
+	float: left;
+}
+#derecha{
+	width: 68%;
+	float: right;
+}
+#presentacion,
+#formacion,
+#experiencia{
+    border: solid 2px black;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	margin: 50px;
+	background-color: #aec8f2;
+}
+img{
+	max-width: 100%;
+}
+a{
+	background-color: white;
+	border: solid;
+	display: block;
+	margin: 6px;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: blue;
+	color:white;
+	font-size: 22px;
+}
